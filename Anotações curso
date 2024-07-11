@@ -1,0 +1,26 @@
+Instalar WSL ubuntu no Windows.
+
+cmd
+
+wsl --install
+apt update
+apt upgrade
+
+apt install docker
+
+docker ps -a
+
+snap install docker
+apt  install docker.io
+
+
+
+
+
+Dar um nome relevante a um container (só chamar o comando docker container start)
+Startar container
+docker container start -ai mydeb
+
+
+docker container run -p 8080:80 -v \c\Users\joao.boico\Desktop\curso-docker\ex-volume/not-found:/usr/share/nginx/html nginx
+docker container run -p 8080:80 -v $(pwd)/not-found:/usr/share/nginx/html nginx1

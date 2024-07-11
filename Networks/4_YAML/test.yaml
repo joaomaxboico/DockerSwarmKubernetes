@@ -1,0 +1,39 @@
+# Instruções para o programa
+nome: "Joao Max Boico"
+idade: 39 # Esta é a idade do desenvolvedor
+
+# Este objeto descreve o noss objeto
+objeto:
+  versao: 2
+  arquivo: "teste.txt"
+
+versao: 2   # Números inteiros
+versao_completa: 3.14 # Números inteiros
+
+string_sem_aspas: Digite um texto aqui # Inserção de Strings
+texto: "Este tambem e um texto valido para o YAML"
+
+nulo: ~ # Valores nulos
+nulo_dois: null
+
+Trava: True # Duas formas de Booleanos
+Trava_dois: On
+
+Trava: False
+Trava_dois: Off
+
+lista: [1,2,3,4,5] # Representação de Arrays e Listas
+
+lista_dois: 
+  - 1       # Lembrar de espaçar entre o valor e ifem!
+  - "teste"
+  - outro teste
+  - True
+
+obj: {a: 1, b: 2, c: 3, objeto_interno: {a: 1}}  #Dicionários
+
+objeto:
+  a: 1
+  b: 2
+  objeto_interno: 
+    x: 3
