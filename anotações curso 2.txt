@@ -518,7 +518,7 @@ Parecido com docker ps ou container ls
 Adicionar novo serviço 
 docker swarm join --token <token> <ip>:<porta>
 copia o join completo gerado no init --advertise, e gerar as worker nas outras máquinas:
-docker swarm join --token SWMTKN-1-4k7hjtmihtf4m034n92nc6zbcb1jfymlnwya2fapnftdx7nowg-8qexrhow9vaw9qa873zfbm9o4 192.168.0.18:2377
+docker swarm join --token --cloud google
 
 visualiza o leader e as worker com docker node ls
 
@@ -566,7 +566,7 @@ Checando token no Swarm
 docker swarm join-token manager
 
 
-docker swarm join --token SWMTKN-1-23djdymun8txtnstvly6vyralv9dn1g6rht506l2b6b9m3jm4t-9xcigwbq9lq6mlfr7sah9vki7 192.168.0.18:2377
+docker swarm join --token  google cloud
 
 ___________-------------------------------------------------------
 Checar mais informações sobre a estrutura do swarm
